@@ -1,0 +1,25 @@
+title : Questions
+
+markdown: kramdown
+
+safe: true
+lsi: false
+pygments: true
+auto: true
+
+source: questions
+destination: questions
+
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+paginate: 10
+paginate_path: "/blog/page:num"
+
+production_url : http://questions.apievangelist.com
+
+BASE_PATH : http://questions.apievangelist.com
+
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
